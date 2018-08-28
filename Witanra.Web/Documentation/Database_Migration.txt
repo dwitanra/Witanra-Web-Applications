@@ -1,0 +1,15 @@
+﻿To make a new database:
+1) Delete the Migrations Folder
+2) Delete the database
+3) Make the changes to do DatabaseContext
+4) Package Manager Console> "Add-Migration New"
+5) Run Program
+
+If you have any database changes:
+1) Make the changes to do DatabaseContext
+2) Package Manager Console> "Add-Migration Description_Of_Migration"
+3) Run Program
+
+more help: 
+https://docs.microsoft.com/en-us/ef/core/miscellaneous/cli/powershell
+https://www.google.com/search?q=entity+framework+migration+commands
